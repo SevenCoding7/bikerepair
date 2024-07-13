@@ -1,116 +1,72 @@
-# Flutter/Dart specific
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
-
-# Android related
-**/android/**/gradle-wrapper.jar
-**/android/.gradle
-**/android/captures/
-**/android/gradlew
-**/android/gradlew.bat
-**/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
-**/android/key.properties
-*.jks
-
-# iOS/XCode related
-**/ios/**/*.mode1v3
-**/ios/**/*.mode2v3
-**/ios/**/*.moved-aside
-**/ios/**/*.pbxuser
-**/ios/**/*.perspectivev3
-**/ios/**/*sync/
-**/ios/**/.sconsign.dblite
-**/ios/**/.tags*
-**/ios/**/.vagrant/
-**/ios/**/DerivedData/
-**/ios/**/Icon?
-**/ios/**/Pods/
-**/ios/**/.symlinks/
-**/ios/**/profile
-**/ios/**/xcuserdata
-**/ios/.generated/
-**/ios/Flutter/App.framework
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/ephemeral
-**/ios/Flutter/app.flx
-**/ios/Flutter/app.zip
-**/ios/Flutter/flutter_assets/
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
-
-# Windows specific
-windows/flutter/ephemeral/
-
-# Visual Studio specific
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-x64/
-x86/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-.vs/
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
-
-# Visual Studio Code specific
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-*.log
-*.pyc
-*.swp
-.atom/
-.buildlog/
-.history
-.svn/
-
-# Firebase configuration files
-google-services.json
-GoogleService-Info.plist
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Exceptions to the above rules
-!**/ios/**/default.mode1v3
-!**/ios/**/default.mode2v3
-!**/ios/**/default.pbxuser
-!**/ios/**/default.perspectivev3
-!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+   # Flutter/Dart specific
+   **/doc/api/
+   .dart_tool/
+   .flutter-plugins
+   .flutter-plugins-dependencies
+   .packages
+   .pub-cache/
+   .pub/
+   build/
+   
+   # Android related
+   **/android/**/gradle-wrapper.jar
+   **/android/.gradle
+   **/android/captures/
+   **/android/gradlew
+   **/android/gradlew.bat
+   **/android/local.properties
+   **/android/**/GeneratedPluginRegistrant.java
+   **/android/key.properties
+   *.jks
+   
+   # Windows specific
+   *.suo
+   *.user
+   *.userosscache
+   *.sln.docstates
+   [Dd]ebug/
+   [Dd]ebugPublic/
+   [Rr]elease/
+   [Rr]eleases/
+   x64/
+   x86/
+   [Aa][Rr][Mm]/
+   [Aa][Rr][Mm]64/
+   bld/
+   [Bb]in/
+   [Oo]bj/
+   [Ll]og/
+   [Ll]ogs/
+   
+   # Visual Studio 2015/2017 cache/options directory
+   .vs/
+   
+   # Visual Studio Code
+   .vscode/*
+   !.vscode/settings.json
+   !.vscode/tasks.json
+   !.vscode/launch.json
+   !.vscode/extensions.json
+   *.code-workspace
+   
+   # Flutter/Dart/Pub related
+   **/doc/api/
+   .dart_tool/
+   .flutter-plugins
+   .flutter-plugins-dependencies
+   .packages
+   .pub-cache/
+   .pub/
+   build/
+   
+   # Firebase
+   .firebaserc
+   firebase.json
+   **/google-services.json
+   lib/firebase_options.dart
+   
+   # Symbolication related
+   app.*.symbols
+   
+   # Obfuscation related
+   app.*.map.json
