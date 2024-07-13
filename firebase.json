@@ -1,0 +1,67 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bikerepair-b2a75",
+          "appId": "1:338018831074:android:a139fa2427a1524d3fecbb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bikerepair-b2a75",
+          "configurations": {
+            "android": "1:338018831074:android:a139fa2427a1524d3fecbb",
+            "windows": "1:338018831074:web:1e37c313803994043fecbb"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database"
+  },
+  "firestore": {
+    "rules": "firestore",
+    "indexes": "firestore"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ],
+  "storage": {
+    "rules": "storage"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "storage": {
+      "port": 9199
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    },
+    "singleProjectMode": true
+  }
+}

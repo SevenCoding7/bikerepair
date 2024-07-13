@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "338018831074",
+    "firebase_url": "https://bikerepair-b2a75-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bikerepair-b2a75",
+    "storage_bucket": "bikerepair-b2a75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338018831074:android:a139fa2427a1524d3fecbb",
+        "android_client_info": {
+          "package_name": "com.company.bikerepair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCveMYTKpdarw7UJt9Ry4DPScfUHMb0N7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338018831074:android:d6039c91b850a5fd3fecbb",
+        "android_client_info": {
+          "package_name": "com.example.bikerepair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCveMYTKpdarw7UJt9Ry4DPScfUHMb0N7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
